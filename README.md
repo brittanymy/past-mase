@@ -25,7 +25,7 @@ WHEN I refresh the page
 THEN the saved events persist
 
 ### TODO
--   Fix color coded time block function
+-   Fix color coded time block function (DONE)
 
 ## Deployed link & screenshot
 https://brittanymy.github.io/past-mase/
