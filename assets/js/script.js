@@ -33,19 +33,19 @@ $(document).ready(function () {
         $(this).removeClass("past");
         $(this).addClass("future");
       }
-    });
+    })
   }
 
   // Grabs item from local storage
-  $("#9am .description").val(localStorage.getItem("9am"));
-  $("#10am .description").val(localStorage.getItem("10am"));
-  $("#11am .description").val(localStorage.getItem("11am"));
-  $("#12pm .description").val(localStorage.getItem("12pm"));
-  $("#13pm .description").val(localStorage.getItem("13pm"));
-  $("#14pm .description").val(localStorage.getItem("14pm"));
-  $("#15pm .description").val(localStorage.getItem("15pm"));
-  $("#16pm .description").val(localStorage.getItem("16pm"));
-  $("#17pm .description").val(localStorage.getItem("17pm"));
+  $("#hour9.description").val(localStorage.getItem("hour9"));
+  $("#hour10 .description").val(localStorage.getItem("hour10"));
+  $("#hour11 .description").val(localStorage.getItem("hour11"));
+  $("#hour12 .description").val(localStorage.getItem("hour12"));
+  $("#hour13 .description").val(localStorage.getItem("hour13"));
+  $("#hour14 .description").val(localStorage.getItem("hour14"));
+  $("#hour15 .description").val(localStorage.getItem("hour15"));
+  $("#hour16 .description").val(localStorage.getItem("hour16"));
+  $("#hour17 .description").val(localStorage.getItem("hour17"));
 
   timeExpression();
 });
