@@ -2,6 +2,7 @@
 # Third-Party APIs Challenge: Work Day Scheduler
 
 ## Description
+This work day scheduler allows the user to keep track of their busy work day. The time blocks start at 9am and finish at 5pm. These time blocks are then color coded based off of past, present, and future events based off of the current date at the top. The user inputs data and then is given the option to save using the save button. 
 
 ## User Story 
 AS AN employee with a busy schedule
@@ -24,6 +25,7 @@ WHEN I refresh the page
 THEN the saved events persist
 
 ### TODO
+-   Fix color coded time block function
 
 ## Deployed link & screenshot
 https://brittanymy.github.io/past-mase/

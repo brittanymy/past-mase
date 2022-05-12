@@ -1,5 +1,5 @@
 // Current date format
-$("#currentDay").text(moment().format("dddd, MMMM Do"));
+$("#currentDay").text(moment().format("dddd, MMMM Do YYYY"));
 
 $(document).ready(function () {
   // Save button function
@@ -25,7 +25,7 @@ $(document).ready(function () {
         $(this).removeClass("present");
         $(this).addClass("past");
       } else if (timeBlock === currentTime) {
-        $(this).removeClass("past");
+        $(this).removeClass("past")
         $(this).removeClass("future");
         $(this).addClass("present");
       } else {
