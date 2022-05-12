@@ -1,5 +1,5 @@
 // Current date format
-$("#currentDay").text(moment().format("dddd, MMMM Do YYYY"));
+$("#currentDay").text(moment().format("dddd, MMMM Do"));
 
 $(document).ready(function () {
   // Save button function
